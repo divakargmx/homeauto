@@ -71,10 +71,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mqtt/4.2.7/mqtt.min.js"></script>
   <script>
     // Define the MQTT broker URL
-    const brokerUrl = 'mqtt://broker.emqx.io';
+    const brokerUrl = 'mqtt://mqtt.example.com';
 
     // Define the topic for the switches
-    const switchTopic = 'Wakar';
+    const switchTopic = 'switches';
 
     // Create an MQTT client
     const client = mqtt.connect(brokerUrl);
